@@ -15,7 +15,6 @@ var commentRoutes = require('./routes/comments'),
     campgroundRoutes = require('./routes/campgrounds'),
     indexRoutes = require('./routes/index');
 
-console.log(process.env.DATABASEURL)
 //seedDB();  //seed new database
 mongoose.connect(process.env.DATABASEURL, {
   useMongoClient: true,
